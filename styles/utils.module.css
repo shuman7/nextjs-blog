@@ -12,17 +12,10 @@
 }
 
 @media (min-width: 768px) {
-    .slideBySide {
+    .sideBySide {
         flex-direction: row;
         justify-content: space-between;
     }
-}
-
-/* 両端揃え */
-.spaceBetween {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 /* 横並び(中央揃え) */
@@ -33,7 +26,7 @@
 }
 
 @media (min-width: 768px) {
-    .slideBySideCenter {
-        text-align: center;
+    .sideBySideCenter {
+        text-align: left;
     }
 }
